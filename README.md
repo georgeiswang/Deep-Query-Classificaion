@@ -12,14 +12,14 @@ Some features in this program:
     * max query length:20
     * bach size: 10
     * dropout 0.3
-# #Structure and Layers
+##Structure and Layers
     * Input (1*300)—> GRU RNN layer —> Fully Connected layer A
     * Reg Expression (1*200)—> Fully Connected layer A
     * Input (1*300) —> Skip Layer A
     * Reg Expression (1*200) —> Skip Layer B
     * Fully Connected Layer A +Skip Layer A+ Skip Layer B—> Output Layer
 
-# #Result
+##Result
 Training Accuray : 98%
 Test Accuracy : 93.7%
 
